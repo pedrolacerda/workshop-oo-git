@@ -10,7 +10,7 @@ public class CursoTests {
 	
 	@Test
 	public void deveRetornar1100QuandoACargaHorariaFor10HorasEAHoraDoInstrutorFor100Reais(){
-		Instrutor paulim = new Instrutor("Paulim", 100);
+		Instrutor paulim = new Instrutor("Paulão", 100);
 		Treinamento cursoDeJava = new Workshop("Curso de Java");
 		Assert.assertEquals(1100.0, cursoDeJava.getPreco());
 	}
