@@ -33,7 +33,7 @@ public class Turma {
 		if(this.haVagas()){
 			return criarMatricula(aluno);
 		}else{
-			throw new IllegalStateException("Quantidade máxima de alunos alcançada!");
+			throw new IllegalStateException("Quantidade máxima alcançada da turma!");
 		}
 	}
 
